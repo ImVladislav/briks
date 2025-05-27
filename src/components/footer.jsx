@@ -22,46 +22,13 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Support */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Support</h4>
-            <ul className="space-x-2 flex">
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  FAQs
-                  <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/shop"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  figures
-                  <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/shop-table"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center group"
-                >
-                  tableau
-                  <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                </a>
-              </li>
-            </ul>
-          </div>
+          
 
           <div>
             <h4 className="text-lg font-semibold mb-4">Support</h4>
             <div className="space-x-5 flex text-gray-400">
-              <Instagram className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" />
-              <Twitter className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" />
-              <Facebook className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" />
+              <a href="https://x.com/i/flow/login"><Twitter className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
+              <a href="https://web.telegram.org"><Facebook className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
             </div>
           </div>
         </div>
