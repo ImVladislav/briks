@@ -128,7 +128,7 @@ const Navbar = () => {
               </span>
             </a>
 
-            <a href="/cartPage" className="nav-link group">
+            <a href="https://pump.fun/" className="nav-link group">
               <span className="relative px-4 py-2 text-sm font-medium transition-colors hover:text-purple-400">
               Buy
                 <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-purple-400 transition-transform group-hover:scale-x-100"></span>

@@ -99,8 +99,8 @@ const Landing = () => {
                             className='flex space-x-1 items-center mt-5'
                             whileHover={{ scale: 1.05 }}
                         >
-                            <a href='/shop' className='ms-8 bg-transparent border-zinc-100 border px-3 py-1 rounded-full hover:text-zinc-950 hover:bg-white text-zinc-100 transition duration-500 '>
-                                Shop Now
+                            <a href='https://dexscreener.com/' className='ms-8 bg-transparent border-zinc-100 border px-3 py-1 rounded-full hover:text-zinc-950 hover:bg-white text-zinc-100 transition duration-500 '>
+                                Сhart
                             </a> 
                             <button className='border border-zinc-100 px-1 py-1  transition duration-500  rounded-full text-zinc-100 text-2xl'>
                                 <IoIosArrowRoundForward />
@@ -167,7 +167,7 @@ const Landing = () => {
                                 variants={fadeInUp}
                                 className='md:me-20 me-6 mt-20'
                             >
-                                <button className='text-lg font-bold'>S<span className='border-b-2 border-white/50'>HOP NO</span>W</button>
+                                <a href='https://dexscreener.com/' className='text-lg font-bold'>C<span className='border-b-2 border-white/50'>AR</span>T</a>
                             </motion.div>
                         </motion.div>
 
@@ -202,7 +202,7 @@ const Landing = () => {
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
-                            className='pt-16 pb-28'
+                            className='center pt-16 pb-28'
                         >
                             <motion.h1 
                                 initial={{ scale: 0.9, opacity: 0 }}
@@ -220,11 +220,11 @@ const Landing = () => {
                             >
                                 token
                             </motion.h1>
-                            <a href="https://t.me/BearbrickFans">
+                            <a href="https://dexscreener.com/">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
-        className="mt-5 md:ms-[43vw] ms-[36vw] px-10 py-2 border rounded-full border-zinc-100 font-bold"
+        className="reset_margin  ms-[36vw] px-10 py-2 border rounded-full border-zinc-100 font-bold"
       >
         NOW
       </motion.button>
