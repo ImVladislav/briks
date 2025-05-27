@@ -220,7 +220,7 @@ const Landing = () => {
                             >
                                 token
                             </motion.h1>
-                            <a href="/shop">
+                            <a href="https://web.telegram.org/k/">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
