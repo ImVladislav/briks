@@ -167,7 +167,7 @@ const Landing = () => {
                                 variants={fadeInUp}
                                 className='md:me-20 me-6 mt-20'
                             >
-                                <a href='https://dexscreener.com/' className='text-lg font-bold'>C<span className='border-b-2 border-white/50'>AR</span>T</a>
+                                <a href='https://dexscreener.com/' className='text-lg font-bold'>C<span className='border-b-2 border-white/50'>HAR</span>T</a>
                             </motion.div>
                         </motion.div>
 
