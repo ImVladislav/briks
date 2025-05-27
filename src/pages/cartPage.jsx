@@ -60,68 +60,7 @@ const CartPage = () => {
     <div className="min-h-screen bg-zinc-900 text-white">
       <Navbar cartItems={cartItems} />
       
-        {/* WhatsApp Button */}
-        <div className="fixed bottom-8 right-8 z-50 flex flex-col items-end">
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{
-                    opacity: [0, 1, 1, 0],
-                    y: [10, 0, 0, 10]
-                  }}
-                  transition={{
-                    duration: 3,
-                    times: [0, 0.1, 0.9, 1],
-                    repeat: Infinity,
-                    repeatDelay: 5
-                  }}
-                  className="mb-2 bg-black text-white px-4 py-2 rounded-lg text-sm shadow-lg"
-                >
-                  Need help? Chat with us!
-                </motion.div>
-        
-                <motion.button
-                  initial={{ scale: 0, opacity: 0 }}
-                  animate={{ scale: 1, opacity: 1 }}
-                  transition={{ 
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                    delay: 1 
-                  }}
-                  whileHover={{ 
-                    scale: 1.1,
-                    boxShadow: "0 0 25px rgba(255, 194, 60, 0.5)"
-                  }}
-                  whileTap={{ scale: 0.95 }}
-                  // onClick={handleWhatsAppClick}
-                  className="bg-purple-400 text-black p-4 rounded-full shadow-lg flex items-center justify-center group"
-                >
-                  <motion.div
-                    animate={{ 
-                      scale: [1, 1.2, 1],
-                      rotate: [0, 10, -10, 0]
-                    }}
-                    transition={{ 
-                      duration: 2,
-                      repeat: Infinity,
-                      repeatDelay: 3
-                    }}
-                  >
-                    <LiaWhatsapp size={24} />
-                  </motion.div>
-                  <motion.span
-                    initial={{ width: 0, opacity: 0 }}
-                    whileHover={{ 
-                      width: "auto",
-                      opacity: 1,
-                      marginLeft: "8px"
-                    }}
-                    className="overflow-hidden whitespace-nowrap font-semibold"
-                  >
-                    Chat with us
-                  </motion.span>
-                </motion.button>
-          </div>
+       
 
       <div className="max-w-[1200px] mx-auto px-8 py-12 pt-32">
         <motion.h1 
