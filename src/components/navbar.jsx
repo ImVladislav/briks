@@ -49,7 +49,7 @@ const Navbar = () => {
       onClick={() => setIsCartOpen(!isCartOpen)} 
       className={`relative flex items-center gap-2 ${className}`}
     >
-      <ShoppingBag className='h-5 w-5'/>
+      <img src='/chart.png' alt='chart'/> 
       {showText && <a href="https://dexscreener.com/">Chart</a>}
       {totalItems > 0 && (
         <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
