@@ -60,55 +60,7 @@ const Navbar = () => {
     </button>
   );
 
-  const CartDropdown = () => (
-    <div className={`
-      ${isMobile ? 'fixed inset-x-4 top-20' : 'absolute right-0'}
-      mt-2 w-[70vw] md:w-80 bg-black/90   backdrop-blur-lg rounded-2xl shadow-2xl py-4 px-2 z-50 border border-white/10
-    `}>
-      <div className="max-h-96 overflow-y-auto">
-        {cartItems.length === 0 ? (
-          <div className="text-center py-4 text-gray-400">
-            Your cart is empty
-          </div>
-        ) : (
-          <>
-            {cartItems.map((item) => (
-              <div key={item.id} className="flex items-center gap-3 p-2 border-b border-white/10">
-                <img 
-                  src={item.image_url} 
-                  alt={item.title} 
-                  className="w-12 h-12 object-cover rounded-lg"
-                />
-                <div className="flex-1 min-w-0">
-                  <h4 className="text-sm font-medium text-white/90 truncate">{item.title}</h4>
-                  <div className="flex justify-between items-center mt-1">
-                    <span className="text-sm text-gray-400">
-                      {item.quantity} × {item.price} MAD
-                    </span>
-                    <span className="text-sm font-medium text-purple-200">
-                      {(item.quantity * item.price).toFixed(2)} MAD
-                    </span>
-                  </div>
-                </div>
-              </div>
-            ))}
-            <div className="p-4 border-t border-white/10 mt-2">
-              <div className="flex justify-between mb-4">
-                <span className="font-medium text-white/90">Total:</span>
-                <span className="font-medium text-purple-200">{totalPrice.toFixed(2)} MAD</span>
-              </div>
-              <button 
-                onClick={handleClick}
-                className="w-full bg-purple-600 text-white py-2 rounded-xl hover:bg-purple-700 transition-colors"
-              >
-                View Cart
-              </button>
-            </div>
-          </>
-        )}
-      </div>
-    </div>
-  );
+ 
 
   const ShopDropdown = () => (
     <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 bg-black/90 backdrop-blur-lg rounded-2xl shadow-2xl py-2 px-1 z-50 border border-white/10 min-w-[200px]">
@@ -156,7 +108,7 @@ const Navbar = () => {
             </a>
           
             {/* Shop Dropdown Trigger */}
-            <a className="relative group" href='https://x.com/i/flow/login'>
+            <a className="relative group" href='https://x.com/BearBrickFanX'>
               <button 
                
                 className="nav-link group flex items-center gap-1"
@@ -169,7 +121,7 @@ const Navbar = () => {
              
             </a>
 
-            <a href="https://web.telegram.org/k/" className="nav-link group">
+            <a href="https://t.me/BearbrickFans" className="nav-link group">
               <span className="relative px-4 py-2 text-sm font-medium transition-colors hover:text-purple-400">
               Telegram
                 <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-purple-400 transition-transform group-hover:scale-x-100"></span>
@@ -219,7 +171,7 @@ const Navbar = () => {
         )}
 
         {/* Cart Dropdown */}
-        {isCartOpen && <CartDropdown />}
+        {/* {isCartOpen && <CartDropdown />} */}
       </nav>
 
 

@@ -93,7 +93,7 @@ const Landing = () => {
                         transition={{ delay: 0.5, duration: 0.8 }}
                         className="absolute bottom-40 ms-[32vw] text-white text-lg md:block hidden"
                     >
-                        <p>Explore a stylish selection of Bearbrick collectibles, from fashion collabs to <br /> limited-edition art pieces. Find your next statement piece today</p>
+                        <p>The original Bearbrick fan token on Solana, uniting collectors and enthusiasts worldwide. <br /> Join us to celebrate the culture and art of Bearbrick like never before.</p>
 
                         <motion.div 
                             className='flex space-x-1 items-center mt-5'
@@ -220,7 +220,7 @@ const Landing = () => {
                             >
                                 token
                             </motion.h1>
-                            <a href="https://web.telegram.org/k/">
+                            <a href="https://t.me/BearbrickFans">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}

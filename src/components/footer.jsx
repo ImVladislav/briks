@@ -7,6 +7,11 @@ import {
   ArrowUpRight,
   Mail,
 } from "lucide-react";
+import dexscreener from "./ico_1.png";
+import dexstools from "./ico_2.png";
+import tg from "./ico_3.png";
+import x from "./ico_4.png";
+
 
 const Footer = () => {
   return (
@@ -27,8 +32,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Support</h4>
             <div className="space-x-5 flex text-gray-400">
-              <a href="https://x.com/i/flow/login"><Twitter className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
-              <a href="https://web.telegram.org"><Facebook className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
+              <a href="https://x.com/BearBrickFanX"><img src={x} alt="x" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
+              <a href="https://t.me/BearbrickFans"><img src={tg} alt="tg" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>             
+              <a href="https://dexscreener.com/"><img src={dexscreener} alt="dexscreener" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
+              <a href="https://dextools.io/"><img src={dexstools} alt="dexstools" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
             </div>
           </div>
         </div>
