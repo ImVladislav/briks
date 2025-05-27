@@ -50,7 +50,7 @@ const Navbar = () => {
       className={`relative flex items-center gap-2 ${className}`}
     >
       <ShoppingBag className='h-5 w-5'/>
-      {showText && <span>Cart</span>}
+      {showText && <a href="https://dexscreener.com/">Chart</a>}
       {totalItems > 0 && (
         <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
           {totalItems}
@@ -155,30 +155,29 @@ const Navbar = () => {
             </a>
           
             {/* Shop Dropdown Trigger */}
-            <div className="relative group">
+            <a className="relative group" href='https://x.com/i/flow/login'>
               <button 
-                onClick={() => setIsShopOpen(!isShopOpen)}
+               
                 className="nav-link group flex items-center gap-1"
               >
                 <span className="relative px-4 py-2 text-sm font-medium transition-colors hover:text-purple-400 flex items-center">
-                  Shop
-                  <ChevronDown className="ml-1 h-4 w-4" />
+                  X
                   <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-purple-400 transition-transform group-hover:scale-x-100"></span>
                 </span>
               </button>
-              {isShopOpen && <ShopDropdown />}
-            </div>
+             
+            </a>
 
-            <a href="/faqs" className="nav-link group">
+            <a href="https://web.telegram.org/k/" className="nav-link group">
               <span className="relative px-4 py-2 text-sm font-medium transition-colors hover:text-purple-400">
-              Faqs
+              Telegram
                 <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-purple-400 transition-transform group-hover:scale-x-100"></span>
               </span>
             </a>
 
             <a href="/cartPage" className="nav-link group">
               <span className="relative px-4 py-2 text-sm font-medium transition-colors hover:text-purple-400">
-              Cart
+              Buy
                 <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-purple-400 transition-transform group-hover:scale-x-100"></span>
               </span>
             </a>

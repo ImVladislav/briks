@@ -220,8 +220,9 @@ const Landing = () => {
                             className='flex justify-between'
                         >
                             <motion.div variants={fadeInUp}>
-                                <h1 className='text-3xl ms-10 font-bold'>CHOOSE YOUR</h1>
-                                <h1 className='text-3xl ms-24 font-bold'>FAVOURITE</h1>
+                                <h1 className='text-3xl ms-10 font-bold'>Join with</h1>
+                                <h1 className='text-3xl ms-24 font-bold'>token
+</h1>
                             </motion.div>
                             <motion.div 
                                 variants={fadeInUp}
@@ -270,7 +271,7 @@ const Landing = () => {
                                 transition={{ duration: 0.6 }}
                                 className='text-center text-zinc-100 text-7xl font-serif'
                             >
-                                CHOOSE YOUR
+                                Join with
                             </motion.h1>
                             <motion.h1 
                                 initial={{ scale: 0.9, opacity: 0 }}
@@ -278,7 +279,7 @@ const Landing = () => {
                                 transition={{ duration: 0.6, delay: 0.2 }}
                                 className='text-center text-zinc-100 text-7xl font-serif pt-2'
                             >
-                                FAVORITE
+                                token
                             </motion.h1>
                             <a href="/shop">
       <motion.button
