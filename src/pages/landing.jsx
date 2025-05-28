@@ -102,9 +102,9 @@ const Landing = () => {
                             <a href='https://dexscreener.com' className='ms-8 bg-transparent border-zinc-100 border px-3 py-1 rounded-full hover:text-zinc-950 hover:bg-white text-zinc-100 transition duration-500 '>
                                 Сhart
                             </a> 
-                            <button className='border border-zinc-100 px-1 py-1  transition duration-500  rounded-full text-zinc-100 text-2xl'>
+                            {/* <button className='border border-zinc-100 px-1 py-1  transition duration-500  rounded-full text-zinc-100 text-2xl'>
                                 <IoIosArrowRoundForward />
-                            </button>
+                            </button> */}
                         </motion.div>
                     </motion.div>
 
