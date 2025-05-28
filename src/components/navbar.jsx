@@ -51,7 +51,7 @@ const Navbar = () => {
       className={`relative flex items-center gap-2 ${className}`}
     >
       <img className='image' sizes='20' src={img} alt='chart'/> 
-      {showText && <a href="https://dexscreener.com/">Chart</a>}
+      {showText && <a href="https://dexscreener.com/solana/9zCF9zirxtEAuBRKNTqshKEvNtDaaD8tze5bZUX5pump">Chart</a>}
       {totalItems > 0 && (
         <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
           {totalItems}
@@ -128,7 +128,7 @@ const Navbar = () => {
               </span>
             </a>
 
-            <a href="https://pump.fun/" className="nav-link group">
+            <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=9zCF9zirxtEAuBRKNTqshKEvNtDaaD8tze5bZUX5pump" className="nav-link group">
               <span className="relative px-4 py-2 text-sm font-medium transition-colors hover:text-purple-400">
               Buy
                 <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 transform bg-purple-400 transition-transform group-hover:scale-x-100"></span>

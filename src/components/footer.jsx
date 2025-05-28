@@ -34,8 +34,9 @@ const Footer = () => {
             <div className="space-x-5 flex text-gray-400">
               <a href="https://x.com/BearBrickFanX"><img src={x} alt="x" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
               <a href="https://t.me/BearbrickFans"><img src={tg} alt="tg" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>             
-              <a href="https://dexscreener.com/"><img src={dexscreener} alt="dexscreener" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
-              <a href="https://dextools.io/"><img src={dexstools} alt="dexstools" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
+              <a href="https://dexscreener.com/solana/9zCF9zirxtEAuBRKNTqshKEvNtDaaD8tze5bZUX5pump"><img src={dexscreener} alt="dexscreener" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
+              <a href="https://www.dextools.io/app/en/solana/pair-explorer/9zCF9zirxtEAuBRKNTqshKEvNtDaaD8tze5bZUX5pump?t=1746999917219
+"><img src={dexstools} alt="dexstools" className="w-5 h-5 hover:text-purple-400 cursor-pointer transition-colors" /></a>
             </div>
           </div>
         </div>

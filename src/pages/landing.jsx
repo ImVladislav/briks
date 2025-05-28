@@ -99,7 +99,7 @@ const Landing = () => {
                             className='flex space-x-1 items-center mt-5'
                             whileHover={{ scale: 1.05 }}
                         >
-                            <a href='https://dexscreener.com/' className='ms-8 bg-transparent border-zinc-100 border px-3 py-1 rounded-full hover:text-zinc-950 hover:bg-white text-zinc-100 transition duration-500 '>
+                            <a href='https://dexscreener.com' className='ms-8 bg-transparent border-zinc-100 border px-3 py-1 rounded-full hover:text-zinc-950 hover:bg-white text-zinc-100 transition duration-500 '>
                                 Сhart
                             </a> 
                             <button className='border border-zinc-100 px-1 py-1  transition duration-500  rounded-full text-zinc-100 text-2xl'>
@@ -167,7 +167,7 @@ const Landing = () => {
                                 variants={fadeInUp}
                                 className='md:me-20 me-6 mt-20'
                             >
-                                <a href='https://dexscreener.com/' className='text-lg font-bold'>C<span className='border-b-2 border-white/50'>HAR</span>T</a>
+                                <a href='https://dexscreener.com/solana/9zCF9zirxtEAuBRKNTqshKEvNtDaaD8tze5bZUX5pump' className='text-lg font-bold'>C<span className='border-b-2 border-white/50'>HAR</span>T</a>
                             </motion.div>
                         </motion.div>
 
@@ -220,7 +220,7 @@ const Landing = () => {
                             >
                                 token
                             </motion.h1>
-                            <a href="https://dexscreener.com/">
+                            <a href="https://dexscreener.com/solana/9zCF9zirxtEAuBRKNTqshKEvNtDaaD8tze5bZUX5pump">
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
